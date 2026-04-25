@@ -7,8 +7,8 @@ onRefresh();
 return (
     
 <div>
-<h2>Items</h2>
-{items.map(item => (
+    <h2>Items</h2>
+    {items.map(item => (
 <div key={item._id} style={{ border: '1px solid #ccc', padding: '1rem', marginBottom: '1rem' }}>
 <h3>{item.name}</h3>
 <p>{item.description}</p>
